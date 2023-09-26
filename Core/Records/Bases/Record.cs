@@ -8,6 +8,8 @@
     /// </summary>
     public abstract class Record
     {
-        public int Id { get; set; }
+        public int Id { get; set; } // required
+
+        public string? Guid { get; set; } // ?: nullable
     }
 }
